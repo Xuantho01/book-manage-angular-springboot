@@ -126,6 +126,5 @@ public class Book {
 
     @ManyToOne
     @JoinColumn(name = "category_id", nullable = false)
-    @JsonIgnore
     private BookCategory category;
 }
